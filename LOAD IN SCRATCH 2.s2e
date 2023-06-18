@@ -1,0 +1,26 @@
+{ "extensionName": "Gvbvdxx Node JS Console",
+ "extensionPort": 3500,
+ "blockSpecs": [
+  [" ","Power off Computer","pcpoweroff"],
+  [" ","Log off Computer","pclogoff"],
+  [" ","Restart Computer","restartpc"],
+ [" ","Put computer in Sleep mode","standbymode"],
+ [" ","Open screensaver","openscreensaver"],
+ [" ","Set system volume to %n","setsystemvolume", 50],
+ [" ","Speak %s","speaktext","Hello World!"],
+ [" ", "Move mouse to x: %n y: %n", "movemouseto", 0,0],
+ ["w", "show dialoge title: %s message: %s", "displaydialouge", "Hello!", "Hello world!"],
+[" ", "create file in path %s with contents %s", "createfile", "hello world.txt", "Hello world!"],
+[" ", "get file in path %s", "readfile", "hello world.txt"],
+[" ", "Check if file %s exists", "checkfileexists", "hello world.txt"],
+["b", "File exists?", "fileexists"],
+["r", "file data", "filedata"],
+["w", " open file/url %s", "openthing", "https://scratch.mit.edu"],
+[" ", "beep", "beep"],
+["w", "HTTP GET %s", "httpget", "http://google.com/"],
+["r", "HTTP response", "response"],
+ ],
+ "menus": {
+"reqmethod": ["GET"],
+ }
+}
