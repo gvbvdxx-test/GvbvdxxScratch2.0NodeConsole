@@ -1,6 +1,6 @@
 {
   "name": "gvb-node-s2.0",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Scratch 2.0 HTTP extension for node js console",
   "main": "main.js",
   "scripts": {
