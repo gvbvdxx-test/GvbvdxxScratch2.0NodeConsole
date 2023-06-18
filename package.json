@@ -18,7 +18,7 @@
     "electron-builder": "^24.4.0"
   },
   "build": {
-	"appid":"gvbvdxx.scratch2nodejs.console"	
+	"appId":"gvbvdxx.scratch2nodejs.console"	
   },
   "dependencies": {
     "http": "^0.0.1-security"
